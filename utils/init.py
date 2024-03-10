@@ -18,6 +18,7 @@ logging.basicConfig(
 BOT_ID = bot.get_me().id
 ADMIN_ID = admin
 
-white_list_manager = ListManager("white_list.json")
-chats_manager = ListManager("chats.json")
+white_list_manager = ListManager("data/white_list.json")
+chats_manager = ListManager("data/chats.json")
+messages_manager = ListManager("data/messages.json")
 logging.info(f"Data loaded from files")
