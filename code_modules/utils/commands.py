@@ -1,4 +1,4 @@
-from utils.init import *
+from code_modules.utils.init import *
 
 
 @bot.message_handler(commands=['help'], func=lambda message: message.from_user.id == ADMIN_ID)
